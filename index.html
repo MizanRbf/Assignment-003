@@ -18,6 +18,7 @@
           colors: {
             clifford: '#179800',
             'nature-primary': '#179800',
+            'bg-nature-primary': '#EFEBE3',
           }
         }
       }
@@ -28,21 +29,25 @@
   <!-- Header Start -->
    <header class="">
     <!-- Navbar -->
-    <div class="navbar bg-base-100 mt-4 border-2 border-x-0 border-t-0 md:border-0 border-nature-primary md:container mx-auto px-4 md:px-0">
+    <div class="navbar bg-base-100 mt-4 border-2 border-x-0 border-t-0 md:border-0 border-nature-primary md:container mx-auto px-4 md:px-0 text-nature-primary">
       <div class="navbar-start">
         
         <a class="text-xl"><img src="c2-assets/logo-header.png" alt=""></a>
+        <a class="text-xl"><img src="" alt=""></a>
+        
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1 text-xl">
+        <ul class="menu menu-horizontal px-1 text-xl text-black">
           <li><a>Product</a></li>
           <li><a>Services</a></li>
           <li><a>Contact Us</a></li>
         </ul>
       </div>
-      <div class="navbar-end">
+      <div class="navbar-end space-x-2">
+        <i class="fa-solid fa-magnifying-glass text-black"></i>
+        <i class="fa-solid fa-cart-shopping text-black"></i>
         <button class="btn btn-outline border-nature-primary py-2 px-8 hidden md:block">Login</button>
-        <button class="btn btn-secondary bg-nature-primary border-none ml-2 py-2 px-8 hidden md:block">Register</button>
+        <button class="btn btn-secondary bg-nature-primary border-none py-2 px-8 hidden md:block">Register</button>
         <div class="dropdown">
           <div tabindex="0" role="button" class="md:hidden">
             <svg
@@ -69,6 +74,21 @@
       </div>
     </div>
     <!-- Banner -->
+    <div class="hero bg-base-200 container mx-auto px-4 md:px-0">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold">Hello there</h1>
+          <p class="py-6">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+            quasi. In deleniti eaque aut repudiandae et a id nisi.
+          </p>
+          <!-- Banner Image -->
+          <div>
+         <img src="c2-assets/hero-vegetables.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- container mx-auto px-4 md:px-0 -->
    </header>
    <main>
