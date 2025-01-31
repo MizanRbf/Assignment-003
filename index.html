@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nature's Platter</title>
+  <!-- Sora Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <style>
+    .font-primary{
+      font-family: "Sora", serif;
+    }
+  </style>
   <!-- Font awesome cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- DaisyUI cdn -->
@@ -25,9 +34,9 @@
     }
   </script>
 </head>
-<body>
+<body class="font-primary">
   <!-- Header Start -->
-   <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] mb-36">
+   <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
     <!-- Navbar -->
     <div class="navbar mt-4 border-2 border-x-0 border-t-0 md:border-0 border-nature-primary md:container mx-auto px-4 md:px-0 text-nature-primary">
       <div class="navbar-start">
@@ -93,8 +102,51 @@
    </header>
    <main>
     <!-- Service Section -->
-    <section class="">
-
+    <section class="my-36 md:container mx-auto px-4 md:px-0">
+      <h1 class="text-nature-primary text-3xl font-semibold mb-12">Services</h1>
+    
+      <!-- Card Container -->
+       <div class="space-y-4 md:space-y-0 md:grid md:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <div class="card bg-bg-nature-primary  p-8">
+            <!-- Avatar -->
+            <div class="avatar mx-auto bg-white rounded-full p-4">
+              <div class="w-24 rounded-full">
+                <img src="c2-assets/service.png" />
+              </div>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-semibold">24/7 Services </h2>
+              <p class="text-lg font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="card bg-bg-nature-primary  p-8">
+            <!-- Avatar -->
+            <div class="avatar mx-auto bg-white rounded-full p-4">
+              <div class="w-24 rounded-full">
+                <img src="c2-assets/service.png" />
+              </div>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-semibold">24/7 Services </h2>
+              <p class="text-lg font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="card bg-bg-nature-primary  p-8">
+            <!-- Avatar -->
+            <div class="avatar mx-auto bg-white rounded-full p-4">
+              <div class="w-24 rounded-full">
+                <img src="c2-assets/service.png" />
+              </div>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-semibold">24/7 Services </h2>
+              <p class="text-lg font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+          </div>
+       </div>
     </section>
     <!-- Products Section -->
     <section class="">
